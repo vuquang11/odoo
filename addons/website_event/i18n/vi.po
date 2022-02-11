@@ -10,6 +10,7 @@
 # Duy BQ <duybq86@gmail.com>, 2018
 # thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2019
 # Dao Nguyen <trucdao.uel@gmail.com>, 2019
+# Vo Thanh Thuy, 2021
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:35+0000\n"
 "PO-Revision-Date: 2018-08-24 09:34+0000\n"
-"Last-Translator: Dao Nguyen <trucdao.uel@gmail.com>, 2019\n"
+"Last-Translator: Vo Thanh Thuy, 2021\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -212,6 +213,11 @@ msgstr "<span>Không giới hạn</span>"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
+msgid "<strong> You ordered more tickets than available seats</strong>"
+msgstr "<strong>Bạn đã đặt nhiều vé hơn số lượng chỗ hiện có</strong>"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
 msgid "<strong>Attendees</strong>"
 msgstr "<strong>Người tham dự</strong>"
 
@@ -271,6 +277,11 @@ msgstr "Đặt câu hỏi cho người tham dự khi đăng ký trực tuyến"
 #: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
 msgid "Attendee #%s"
 msgstr "Người tham dự #%s"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.registration_template
+msgid "Available seats: "
+msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -477,7 +488,7 @@ msgstr "Giới thiệu"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__is_participating
 msgid "Is Participating"
-msgstr ""
+msgstr "Đang tham gia"
 
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__is_published
@@ -677,7 +688,7 @@ msgstr "Rất tiếc, sự kiện được yêu cầu thì không còn khả d�
 #. module: website_event
 #: model:ir.model.fields,help:website_event.field_event_event__website_url
 msgid "The full URL to access the document through the website."
-msgstr "URL đầy đủ để truy cập tài liệu thông qua trang web"
+msgstr "URL đầy đủ để truy cập tài liệu thông qua website."
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:44
@@ -712,7 +723,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__website_published
 msgid "Visible on current website"
-msgstr ""
+msgstr "Hiển thị ở website hiện hành"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
