@@ -2502,7 +2502,7 @@ msgstr "Chất lượng phone"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_mobile_search
 msgid "Phone/Mobile"
-msgstr "Di đông/Điện thoại"
+msgstr "Di động/Điện thoại"
 
 #. module: crm
 #: code:addons/crm/models/crm_team.py:0
