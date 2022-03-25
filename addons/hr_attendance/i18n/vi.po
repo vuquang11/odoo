@@ -780,7 +780,7 @@ msgid ""
 "Warning : Your user should be linked to an employee to use attendance. "
 "Please contact your administrator."
 msgstr ""
-"Cảnh báo: Tài khoản của bạn đã liên kết với một nhân viên được sử dụng để "
+"Cảnh báo: Tài khoản của bạn cần được liên kết với một nhân viên được sử dụng để "
 "điểm danh. Hãy liên hệ Quản trị viên để biết thêm chi tiết."
 
 #. module: hr_attendance
