@@ -52,7 +52,7 @@ msgstr "Danh xưng"
 #: model:ir.ui.menu,name:contacts.menu_contacts
 #: model:ir.ui.menu,name:contacts.res_partner_menu_contacts
 msgid "Contacts"
-msgstr "Liên hệ"
+msgstr "Danh bạ"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_country_partner
