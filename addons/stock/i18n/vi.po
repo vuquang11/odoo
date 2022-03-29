@@ -7458,8 +7458,8 @@ msgid ""
 "                a manufacturing order or a transfer."
 msgstr ""
 "Sử dụng trợ lý này để bổ sung tồn kho của bạn.\n"
-"                 Tùy thuộc vào cấu hình sản phẩm của bạn, việc khởi chạy bổ sung có thể kích hoạt yêu cầu báo giá,\n"
-"                 một đơn đặt hàng sản xuất hoặc phiếu dịch chuyển."
+"                Tùy thuộc vào cấu hình sản phẩm của bạn, việc khởi chạy bổ sung có thể kích hoạt yêu cầu báo giá,\n"
+"                một đơn đặt hàng sản xuất hoặc phiếu dịch chuyển."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
