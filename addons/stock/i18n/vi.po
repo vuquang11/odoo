@@ -5994,7 +5994,7 @@ msgstr "Số sê-ri"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Set Warehouse Routes"
-msgstr "Thiết đặt định tuyết kho hàng"
+msgstr "Thiết đặt định tuyến kho hàng"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_category__removal_strategy_id
