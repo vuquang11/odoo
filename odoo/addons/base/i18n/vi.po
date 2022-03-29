@@ -27665,7 +27665,7 @@ msgstr "Studio"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_subcontracting
 msgid "Subcontract Productions"
-msgstr "Gia công ngoài sản xuất"
+msgstr "Thuê gia công sản xuất"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_mrp_subcontracting
@@ -27675,7 +27675,7 @@ msgstr "Hợp đồng phụ với mã vạch"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_account
 msgid "Subcontracting Management with Stock Valuation"
-msgstr "Quản lý gia công ngoài với giá trị kho"
+msgstr "Quản lý thuê gia công với giá trị kho"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
