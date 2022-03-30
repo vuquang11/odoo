@@ -4336,8 +4336,8 @@ msgid ""
 "In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
 "        Each modification on the master page is automatically applied to all translated versions."
 msgstr ""
-"In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
-"        Each modification on the master page is automatically applied to all translated versions."
+"Ở chế độ này, bạn chỉ có thể dịch các văn bản / chữ. Để thay đổi cấu trúc trang, bạn phải sửa trang gốc.\n"
+"        Mỗi sửa đổi ở trang gốc thì sẽ được tự động áp dụng cho toàn bộ các phiên bản được dịch của nó."
 
 #. module: website
 #: code:addons/website/controllers/backend.py:0
@@ -4516,7 +4516,7 @@ msgstr "Đã kết nối"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__website_indexed
 msgid "Is Indexed"
-msgstr "Is Indexed"
+msgstr "Được lập chỉ mục"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_module_module__is_installed_on_current_website
@@ -4526,7 +4526,7 @@ msgstr "Được cài đặt trên trang web hiện tại"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu__is_mega_menu
 msgid "Is Mega Menu"
-msgstr "Is Mega Menu"
+msgstr "Là Mega Menu"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_partner__is_published
