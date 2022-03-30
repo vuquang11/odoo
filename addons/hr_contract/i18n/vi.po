@@ -86,8 +86,8 @@ msgid ""
 "Contract Since</span>"
 msgstr ""
 "<span class=\"o_stat_text text-success\" attrs=\"{'invisible' : "
-"[('contract_warning', '=', True)]}\" title=\"Hợp đồng từ\"> In "
-"Hợp đồng từ</span>"
+"[('contract_warning', '=', True)]}\" title=\"Hợp đồng từ\"> Hợp "
+"đồng từ</span>"
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
