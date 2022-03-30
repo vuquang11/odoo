@@ -2636,7 +2636,7 @@ msgstr "Làm vườn: Bí quyết là đây"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "Generate revenues thanks to your courses"
-msgstr "Tạo lợi thu nhập nhờ vào các khoá của bạn"
+msgstr "Tạo thêm thu nhập nhờ vào các khoá học của bạn"
 
 #. module: website_slides
 #: model:gamification.badge,description:website_slides.badge_data_certification
@@ -3327,7 +3327,7 @@ msgstr "Liên kết"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_mass_mailing_slides
 msgid "Mailing"
-msgstr "Mailing"
+msgstr "Gửi thư hàng loạt"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_main_attachment_id
