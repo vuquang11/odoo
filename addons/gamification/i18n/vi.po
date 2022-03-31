@@ -333,7 +333,7 @@ msgstr ""
 "                    <span>${object.name or ''}</span>!\n"
 "                </p>\n"
 "                <p>\n"
-"                    Bạn đã đạt được một cấp độ mới: <strong>${object.rank_id.name}</strong>\n"
+"                    Bạn đã đạt được một cấp bậc mới: <strong>${object.rank_id.name}</strong>\n"
 "                </p>\n"
 "                % if object.next_rank_id.name\n"
 "                    <p>Hãy tiếp tục làm việc để đạt đến <strong>${object.next_rank_id.name}</strong> !</p>\n"
@@ -873,7 +873,7 @@ msgid ""
 "A rank correspond to a fixed karma level. The more you have karma, the more your rank is high.\n"
 "                    This is used to quickly know which user is new or old or highly or not active."
 msgstr ""
-"Một cấp độ thì tương ứng với cấp karma cố định. Bạn có càng nhiều karma thì cấp độ của bạn càng cao.\n"
+"Một cấp bậc thì tương ứng với cấp karma cố định. Bạn có càng nhiều karma thì cấp bậc của bạn càng cao.\n"
 "                    Thông tin này được sử dụng để nhanh chóng xác định người dùng nào thì mới hoặc cũ hoặc năng động hay không."
 
 #. module: gamification
@@ -1188,7 +1188,7 @@ msgstr "Tạo mới một chỉ tiêu"
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
 msgid "Create a new rank"
-msgstr "Tạo mới một cấp độ"
+msgstr "Tạo mới một cấp bậc"
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.action_new_simplified_res_users
@@ -1932,7 +1932,7 @@ msgstr "Thông điệp"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__karma_min
 msgid "Minimum karma needed to reach this rank"
-msgstr "Karma tối thiếu phải có để đạt đến cấp độ này"
+msgstr "Karma tối thiếu phải có để đạt đến cấp bậc này"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__model_id
@@ -1975,7 +1975,7 @@ msgstr "Truyền lửa"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__description_motivational
 msgid "Motivational phrase to reach this rank"
-msgstr "Một cụm từ hoặc một câu ngắn để truyền lửa, tạo động lực, thúc đẩy mọi người đạt đến cấp độ này"
+msgstr "Một cụm từ hoặc một câu ngắn để truyền lửa, tạo động lực, thúc đẩy mọi người đạt đến cấp bậc này"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
@@ -2026,7 +2026,7 @@ msgstr "Huy hiệu mới $ {object.badge_id.name} được cấp"
 #. module: gamification
 #: model:mail.template,subject:gamification.mail_template_data_new_rank_reached
 msgid "New rank: ${object.rank_id.name}"
-msgstr "Cấp độ mới: ${object.rank_id.name}"
+msgstr "Cấp bậc mới: ${object.rank_id.name}"
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_newbie
@@ -2036,7 +2036,7 @@ msgstr "Thành viên mới"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__next_rank_id
 msgid "Next Rank"
-msgstr "Cấp độ kế tiếp"
+msgstr "Cấp bậc kế tiếp"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__next_report_date
@@ -2206,53 +2206,53 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_res_users__rank_id
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "Rank"
-msgstr "Cấp độ"
+msgstr "Cấp bậc"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__name
 msgid "Rank Name"
-msgstr "Tên cấp độ"
+msgstr "Tên Cấp bậc"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_karma_rank
 msgid "Rank based on karma"
-msgstr "Cấp độ dựa trên karma"
+msgstr "Cấp bậc dựa trên karma"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.gamification_karma_ranks_action
 #: model:ir.ui.menu,name:gamification.gamification_karma_ranks_menu
 msgid "Ranks"
-msgstr "Cấp độ"
+msgstr "Cấp bậc"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_tree
 msgid "Ranks List"
-msgstr "Danh mục cấp độ"
+msgstr "Danh mục Cấp bậc"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank and gain a very magic wand !"
-msgstr "Đạt đến cấp độ tiếp theo để có một cây đũa thần!"
+msgstr "Đạt đến cấp bậc tiếp theo để có một cây đũa thần!"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and gain a very nice hat !"
-msgstr "Đạt đến cấp độ tiếp theo để có một chiếc mũ dễ thương!"
+msgstr "Đạt đến cấp bậc tiếp theo để có một chiếc mũ dễ thương!"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank and gain a very nice mug !"
-msgstr "Đạt đến cấp độ tiếp theo để có một chiếc chén xinh xắn!"
+msgstr "Đạt đến cấp bậc tiếp theo để có một chiếc chén xinh xắn!"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank to show the rest of the world you exist."
-msgstr "Đạt đến cấp độ tiếp theo để cho phần còn lại của thế giới biết bạn tồn tại."
+msgstr "Đạt đến cấp bậc tiếp theo để cho phần còn lại của thế giới biết bạn tồn tại."
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and gain a very nice unicorn !"
-msgstr "Đạt đến cấp độ tiếp theo để có một chú kỳ lân dễ thương!"
+msgstr "Đạt đến cấp bậc tiếp theo để có một chú kỳ lân dễ thương!"
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal__state__reached
@@ -2408,7 +2408,7 @@ msgstr "Tìm các Mục tiêu"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_search
 msgid "Search Ranks"
-msgstr "Tìm các cấp độ"
+msgstr "Tìm các cấp bậc"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
@@ -2899,7 +2899,7 @@ msgstr "Người dùng"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__user_ids
 msgid "Users having this rank"
-msgstr "Người dùng mà có cấp độ này"
+msgstr "Người dùng mà có cấp bậc này"
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__weekly
@@ -2988,7 +2988,7 @@ msgstr "Bạn đã tìm thấy một huy hiệu bị ẩn"
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_doctor
 msgid "You have reached the last rank. Congratulations!"
-msgstr "Bạn đã đạt đến cấp độ cuối cùng. Chúc mừng!"
+msgstr "Bạn đã đạt đến cấp bậc cuối cùng. Chúc mừng!"
 
 #. module: gamification
 #: model_terms:gamification.karma.rank,description:gamification.rank_newbie
@@ -3043,7 +3043,7 @@ msgstr "ví dụ: Các mục tiêu doanh số hàng tháng"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Reach this rank to gain a free mug !"
-msgstr "vd. Đạt đến cấp độ này để có được một chiếc chén miễn phí!"
+msgstr "vd. Đạt đến cấp bậc này để có được một chiếc chén miễn phí!"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view

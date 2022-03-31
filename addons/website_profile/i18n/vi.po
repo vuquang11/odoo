@@ -49,7 +49,7 @@ msgid ""
 "will make you reach new ranks."
 msgstr ""
 ". Thu thập điểm trên diễn đàn hoặc nền tảng học trực tuyến eLearning. Những "
-"điểm này sẽ giúp bạn đạt thứ hạng mới. "
+"điểm này sẽ giúp bạn đạt cấp bậc mới. "
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.users_page_content
@@ -89,7 +89,7 @@ msgstr "<i class=\"text-muted\"> người dùng được thưởng</i>"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
 msgid "<small class=\"font-weight-bold mr-2\">Current rank:</small>"
-msgstr "<small class=\"font-weight-bold mr-2\">Hạng hiện tại:</small>"
+msgstr "<small class=\"font-weight-bold mr-2\">Cấp bậc hiện tại:</small>"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
@@ -418,7 +418,7 @@ msgstr "Điều hướng"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
 msgid "Next rank:"
-msgstr "Hạng kế tiếp:"
+msgstr "Cấp bậc kế tiếp:"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_badges
