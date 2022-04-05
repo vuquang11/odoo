@@ -11290,7 +11290,7 @@ msgstr "Tài khoản tạm thời"
 #. module: account
 #: model:ir.actions.server,name:account.action_move_switch_invoice_to_credit_note
 msgid "Switch into refund/credit note"
-msgstr "Chuyển sang Hoá đơn Hoàn tiền / Điều chỉnh giảm"
+msgstr "Chuyển thành Hoá đơn Hoàn tiền / Điều chỉnh giảm"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__name
