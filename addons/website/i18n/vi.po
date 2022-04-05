@@ -747,7 +747,7 @@ msgid ""
 "                                        </small>"
 msgstr ""
 "<small class=\"text-muted\">\n"
-"                                            <i class=\"fa fa-info\"/>: gõ một số ký tự đầu tiên sau khi 'google' là đủ, chúng tôi sẽ đoán phần còn lại.\n"
+"                                            <i class=\"fa fa-info\"/>: gõ một số ký tự đầu tiên sau 'google' là đủ, chúng tôi sẽ đoán phần còn lại.\n"
 "                                        </small>"
 
 #. module: website
