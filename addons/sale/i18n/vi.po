@@ -3296,7 +3296,7 @@ msgstr "Re-Invoice Policy visible"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all prices based on this pricelist"
-msgstr "Recompute all prices based on this pricelist"
+msgstr "Tính toán lại toàn bộ giá lấy cơ sở từ bảng giá này"
 
 #. module: sale
 #: code:addons/sale/controllers/portal.py:0
