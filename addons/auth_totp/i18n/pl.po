@@ -145,7 +145,7 @@ msgstr "Nazwa wyświetlana"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid "Don't ask again for this device"
+msgid "Don't ask again on this device"
 msgstr ""
 
 #. module: auth_totp

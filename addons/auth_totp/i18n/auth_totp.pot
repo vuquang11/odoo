@@ -42,13 +42,6 @@ msgid ""
 msgstr ""
 
 #. module: auth_totp
-#: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid ""
-"<i class=\"fa fa-question-circle text-primary\" title=\"If checked, you "
-"won't be asked for two-factor authentication codes with this device.\"/>"
-msgstr ""
-
-#. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 msgid ""
 "<i class=\"fa fa-warning\"/>\n"
@@ -71,6 +64,11 @@ msgid ""
 "                            <i class=\"fa fa-check-circle\"/>\n"
 "                            Two-factor authentication enabled\n"
 "                        </span>"
+msgstr ""
+
+#. module: auth_totp
+#: model:ir.model.fields,field_description:auth_totp.field_res_users__api_key_ids
+msgid "API Keys"
 msgstr ""
 
 #. module: auth_totp
@@ -134,7 +132,7 @@ msgstr ""
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid "Don't ask again for this device"
+msgid "Don't ask again on this device"
 msgstr ""
 
 #. module: auth_totp

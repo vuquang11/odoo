@@ -53,15 +53,6 @@ msgstr ""
 "                                Xác thực 2 yếu tố được kích hoạt"
 
 #. module: auth_totp
-#: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid ""
-"<i class=\"fa fa-question-circle text-primary\" title=\"If checked, you "
-"won't be asked for two-factor authentication codes with this device.\"/>"
-msgstr ""
-"<i class=\"fa fa-question-circle text-primary\" title=\"Nếu đánh dấu, bạn "
-"sẽ không bị hỏi về mã xác thực 2 yếu tố ở thiết bị này.\"/>"
-
-#. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 msgid ""
 "<i class=\"fa fa-warning\"/>\n"
@@ -97,6 +88,11 @@ msgstr ""
 "                        </span>"
 
 #. module: auth_totp
+#: model:ir.model.fields,field_description:auth_totp.field_res_users__api_key_ids
+msgid "API Keys"
+msgstr "Khóa API"
+
+#. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 msgid "Added On"
 msgstr "Được thêm vào"
@@ -118,8 +114,8 @@ msgid ""
 "Are you sure? Two-factor authentication will be required again on all your "
 "devices"
 msgstr ""
-"Bạn chắc chắn chứ? Xác thực 2 yếu tố sẽ được yêu cầu một lần nữa đối với tất "
-"cả các thiết bị của bạn."
+"Bạn chắc chắn chứ? Xác thực 2 yếu tố sẽ được yêu cầu một lần nữa đối với tất"
+" cả các thiết bị của bạn."
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
@@ -162,7 +158,7 @@ msgstr "Tên hiển thị"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid "Don't ask again for this device"
+msgid "Don't ask again on this device"
 msgstr "Không hỏi lại đối với thiết bị này"
 
 #. module: auth_totp
@@ -343,12 +339,12 @@ msgstr "Mã xác thực"
 #: code:addons/auth_totp/models/res_users.py:0
 #, python-format
 msgid "Verification failed, please double-check the 6-digit code"
-msgstr "Xác minh thất bại. Hãy kiểm tra lại mã 6 chữ số"
+msgstr "Xác thực thất bại. Hãy kiểm tra lại mã 6 chữ số"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Verify"
-msgstr "Xác minh"
+msgstr "Xác thực"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field

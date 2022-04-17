@@ -167,7 +167,7 @@ msgstr "Vis navn"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
-msgid "Don't ask again for this device"
+msgid "Don't ask again on this device"
 msgstr "Spørg ikke igen for denne enhed"
 
 #. module: auth_totp
