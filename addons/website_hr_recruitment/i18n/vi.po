@@ -35,7 +35,7 @@ msgstr "12 ngày/năm, bao gồm <br/>6 ngày tự chọn."
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
 #: model_terms:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "<br/><i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
-msgstr "<br/><i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
+msgstr "<br/><i class=\"fa fa-phone\" role=\"img\" aria-label=\"Điện thoại\" title=\"Điện thoại\"/>"
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
@@ -115,8 +115,8 @@ msgid ""
 "<span title=\"Link Trackers\"><i class=\"fa fa-lg fa-link\" role=\"img\" "
 "aria-label=\"Link Trackers\"/></span>"
 msgstr ""
-"<span title=\"Theo dõi link\"><i class=\"fa fa-lg fa-link\" role=\"img\" "
-"aria-label=\"Link Trackers\"/></span>"
+"<span title=\"Theo vết link\"><i class=\"fa fa-lg fa-link\" role=\"img\" "
+"aria-label=\"Theo vết link\"/></span>"
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
@@ -170,7 +170,7 @@ msgstr "Tất cả phòng ban"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_filter_by_offices
 msgid "All Offices"
-msgstr "Tất cả nhân viên"
+msgstr "Tất cả các Văn phòng"
 
 #. module: website_hr_recruitment
 #: model:ir.model,name:website_hr_recruitment.model_hr_applicant
