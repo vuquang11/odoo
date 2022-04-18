@@ -1013,7 +1013,7 @@ msgid ""
 "                    <span class=\"css_unpublish\">Published</span>"
 msgstr ""
 "<span/>\n"
-"                    <span class=\"css_publish\">Bỏ đăng</span>\n"
+"                    <span class=\"css_publish\">Chưa đăng</span>\n"
 "                    <span class=\"css_unpublish\">Đã đăng</span>"
 
 #. module: website
