@@ -3337,7 +3337,7 @@ msgid ""
 "Contact an administrator."
 msgstr ""
 "Bạn không thể thôi giữ phần được nhiều sản phẩm %s hơn số lượng bạn có trong"
-" kho."
+" kho. Hãy liên hệ với quản trị viên hệ thống."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__move_type
