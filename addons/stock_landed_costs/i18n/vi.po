@@ -93,7 +93,7 @@ msgstr "Chi phí bổ sung"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__additional_landed_cost
 msgid "Additional Landed Cost"
-msgstr "Landed Cost Bổ sung"
+msgstr "Chi phí về kho Bổ sung"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__allowed_picking_ids
@@ -521,7 +521,7 @@ msgstr "Mới"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__final_cost
 msgid "New Value"
-msgstr "New Value"
+msgstr "Giá trị cuối"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__activity_date_deadline
@@ -589,7 +589,7 @@ msgstr "Vui lòng cấu hình tài khoản chi phí kho cho sản phẩm: %s."
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 #, python-format
 msgid "Please define %s on which those additional costs should apply."
-msgstr "Please define %s on which those additional costs should apply."
+msgstr "Vui lòng xác định %s mà các chi phí bổ sung sẽ được áp dụng."
 
 #. module: stock_landed_costs
 #: model:ir.model.fields.selection,name:stock_landed_costs.selection__stock_landed_cost__state__done
@@ -780,6 +780,8 @@ msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
 "applied for products with FIFO or average costing method."
 msgstr ""
+"Bạn không thể áp dụng chi phí về kho cho (các) dịch chuyển được chọn. Chi "
+"phí về kho chỉ có thể áp dụng cho các sản phẩm có phương pháp giá vốn FIFO hoặc trung bình."
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/product.py:0
