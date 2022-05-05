@@ -4914,7 +4914,7 @@ msgstr "Tuỳ biến Hạn chế"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_chart_options
 msgid "Line"
-msgstr "Dòng"
+msgstr "Đường"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
