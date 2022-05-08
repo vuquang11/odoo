@@ -889,13 +889,6 @@ msgstr ""
 #: code:addons/mail/models/mail_thread_blacklist.py:0
 #, python-format
 msgid "Are you sure you want to unblacklist this Email Address?"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_blacklist.py:0
-#: code:addons/mail/models/mail_thread_blacklist.py:0
-#, python-format
-msgid "Are you sure you want to unblacklist this Email Address?"
 msgstr "Bạn có chắc muốn bỏ địa chỉ email này ra khỏi sổ đen?"
 
 #. module: mail
@@ -1145,12 +1138,6 @@ msgstr "Gọi"
 #: model:ir.model.fields,field_description:mail.field_mail_activity__can_write
 msgid "Can Write"
 msgstr "Có thể Ghi"
-
-#. module: mail
-#: code:addons/mail/models/mail_notification.py:0
-#, python-format
-msgid "Can not update the message or recipient of a notification."
-msgstr "Không thể cập nhật tin nhắn hoặc người nhận của thông báo."
 
 #. module: mail
 #. openerp-web
@@ -1821,7 +1808,7 @@ msgstr "Giao thư đã lỗi"
 #: code:addons/mail/static/src/components/message/message.xml:0
 #, python-format
 msgid "Delivery failure"
-msgstr ""
+msgstr "Gửi tin thất bại"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel__description
@@ -6917,7 +6904,7 @@ msgstr ""
 #: code:addons/mail/models/mail_channel.py:0
 #, python-format
 msgid "You can not write on this field"
-msgstr ""
+msgstr "Bạn không thể sửa đổi trường này"
 
 #. module: mail
 #. openerp-web
