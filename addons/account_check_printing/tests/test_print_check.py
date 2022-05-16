@@ -160,4 +160,4 @@ class TestPrintCheck(AccountTestInvoicingCommon):
             'payment_method_id': self.payment_method_check.id,
         })._create_payments()
 
-        self.assertEqual(set(payments.mapped('check_number')), {str(x) for x in range(11111, 11121)})
+        self.assertEqual(set(payments.mapped('check_number')), {str(x) for x in range(11111, 11111 + nb_invoices_to_test)})
