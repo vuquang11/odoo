@@ -6352,11 +6352,11 @@ msgid ""
 "transactions will be reconciled with entries on the Outstanding Receipts "
 "Account instead of the receivable account."
 msgstr ""
-"Các bút toán thanh toán thu tiền được kích hoạt bởi các hóa đơn / tiền hoàn "
-"lại sẽ được đăng trên Tài khoản Biên lai Chưa thanh toán và được hiển thị "
-"dưới dạng các dòng màu xanh lam trong tiện ích đối chiếu ngân hàng. Trong "
-"quá trình đối chiếu, các giao dịch liên quan sẽ được đối chiếu với các bút "
-"toán trên Tài khoản Biên lai chưa thanh toán thay vì tài khoản phải thu."
+"Các bút toán thanh toán thu tiền tạm thời được kích hoạt bởi các hóa đơn / tiền hoàn "
+"lại sẽ được vào sổ ở Tài khoản Nhận tiền Tạm thời và được hiển thị dưới dạng "
+"các dòng màu xanh lam trong tiện ích đối soát ngân hàng. Trong "
+"quá trình đối soát, các giao dịch liên quan sẽ được đối soát với các bút "
+"toán trên Tài khoản Nhận tiền Tạm thời thay vì tài khoản phải thu."
 
 #. module: account
 #: code:addons/account/wizard/setup_wizards.py:0
@@ -8732,11 +8732,11 @@ msgid ""
 "transactions will be reconciled with entries on the Outstanding Payments "
 "Account instead of the payable account."
 msgstr ""
-"Bút toán thanh toán trước được xử lý trên hóa đơn/ghi chú tín dụng sẽ được "
-"đưa vào sổ ở Tài khoản Thanh toán trước và hiển thị thành 1 dòng màu xanh ở "
+"Bút toán thanh toán chi tiền tạm thời được kích hoạt bởi các hóa đơn NCC / báo có "
+"sẽ được vào sổ ở Tài khoản Chi tiền Tạm thời và hiển thị thành 1 dòng màu xanh ở "
 "phần tính năng đối soát sổ quỹ. Trong quá trình xử lý đối soát, các giao "
-"dịch liên quan sẽ được đối chiếu với các bút toán ở phần Tài khoản thanh "
-"toán trước thay vì tài khoản phải trả."
+"dịch liên quan sẽ được đối chiếu với các bút toán ở phần Tài khoản Chi tiền Tạm "
+"thời thay vì tài khoản phải trả."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__property_stock_account_output_categ_id
@@ -8748,23 +8748,23 @@ msgstr "Tài khoản xuất kho để định giá tồn kho"
 #: code:addons/account/models/account_journal.py:0
 #, python-format
 msgid "Outstanding Payments"
-msgstr "Thanh toán trả trước"
+msgstr "Thanh toán Chi tiền Tạm thời"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__payment_credit_account_id
 msgid "Outstanding Payments Account"
-msgstr "Tài khoản Thanh toán trả trước"
+msgstr "Tài khoản Chi tiền Tạm thời"
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0
 #, python-format
 msgid "Outstanding Receipts"
-msgstr "Biên lai trả trước"
+msgstr "Thanh toán Nhận tiền Tạm thời"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__payment_debit_account_id
 msgid "Outstanding Receipts Account"
-msgstr "Tài khoản biên lai trả trước"
+msgstr "Tài khoản Nhận tiền Tạm thời"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
