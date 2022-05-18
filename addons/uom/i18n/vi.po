@@ -250,6 +250,10 @@ msgid ""
 "the unit of measure defined on the order line or on the product, they should"
 " belong to the same category."
 msgstr ""
+"Đơn vị đo lường %s được xác định trên dòng đơn hàng không cùng "
+"nhóm với đơn vị đo %s được thiết lập trên sản phẩm. Vui lòng sửa lại "
+"đơn vị đo lường được thiết lập trên dòng đơn hàng hoặc trên sản phẩm, chúng phải"
+" thuộc cùng một nhóm."
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__uom_type
@@ -318,14 +322,14 @@ msgid ""
 "UoM category %s should have a reference unit of measure. If you just created"
 " a new category, please record the 'reference' unit first."
 msgstr ""
-"UoM category %s should have a reference unit of measure. If you just created"
-" a new category, please record the 'reference' unit first."
+"Nhóm đơn vị tính %s cần phải có đơn vị gốc. Nếu bạn vừa tạo"
+" một Nhóm mới, hãy chọn một đơn vị gốc trước."
 
 #. module: uom
 #: code:addons/uom/models/uom_uom.py:0 code:addons/uom/models/uom_uom.py:0
 #, python-format
 msgid "UoM category %s should only have one reference unit of measure."
-msgstr "UoM category %s should only have one reference unit of measure."
+msgstr "Nhóm đơn vị tính %s chí có thể có một đơn vị gốc."
 
 #. module: uom
 #: model:uom.category,name:uom.product_uom_categ_vol
@@ -346,7 +350,7 @@ msgstr "Thời gian Làm việc"
 #: code:addons/uom/models/uom_uom.py:0
 #, python-format
 msgid "You cannot delete this UoM Category as it is used by the system."
-msgstr "You cannot delete this UoM Category as it is used by the system."
+msgstr "Bạn không thể xóa Nhóm đơn vị tính mà hệ thống đang sử dụng."
 
 #. module: uom
 #: code:addons/uom/models/uom_uom.py:0
@@ -355,8 +359,8 @@ msgid ""
 "You cannot delete this UoM as it is used by the system. You should rather "
 "archive it."
 msgstr ""
-"You cannot delete this UoM as it is used by the system. You should rather "
-"archive it."
+"Bạn không thể xóa Đơn vị tính mà hệ thống đang sử dụng. Bạn nên "
+"lưu trữ chúng thay vì xóa."
 
 #. module: uom
 #: model_terms:ir.actions.act_window,help:uom.product_uom_form_action
