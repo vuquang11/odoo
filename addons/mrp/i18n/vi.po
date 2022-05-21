@@ -1111,7 +1111,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__time_mode__auto
 msgid "Compute based on tracked time"
-msgstr "Compute based on tracked time"
+msgstr "Tính toán dựa trên thời gian đã được theo dõi"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_res_config_settings
@@ -5409,7 +5409,7 @@ msgstr "từ địa điểm"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "last"
-msgstr "gần đây"
+msgstr " "
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0
@@ -5451,9 +5451,9 @@ msgstr "số lượng đã được cập nhật."
 #: code:addons/mrp/static/src/js/mrp_documents_controller_mixin.js:0
 #, python-format
 msgid "status code: %s </br> message: %s"
-msgstr "status code: %s </br> message: %s"
+msgstr "mã tình trạng: %s </br> thông điệp: %s"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
-msgstr "hoạt động sản xuất trước"
+msgstr "hoạt động sản xuất gần đây"
