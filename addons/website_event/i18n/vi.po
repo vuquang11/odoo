@@ -57,7 +57,7 @@ msgstr "<b>Kéo và thả</b>snippet xuống dưới tiêu đề sự kiện. "
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "<b>Start</b>"
-msgstr "<b>Kết thúc</b>"
+msgstr "<b>Bắt đầu</b>"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.country_events_list
@@ -67,7 +67,7 @@ msgstr "<b>Xem tất cả</b>"
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "<br/> <b>End</b>"
-msgstr ""
+msgstr "<br/> <b>Kết thúc</b>"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_quotes
@@ -918,7 +918,7 @@ msgstr "Bán vé bắt đầu vào"
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.layout
 msgid "Search an event ..."
-msgstr ""
+msgstr "Tìm kiếm một sự kiện..."
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index_topbar
