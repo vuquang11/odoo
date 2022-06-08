@@ -1081,7 +1081,7 @@ msgstr ""
 msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
-msgstr ""
+msgstr "Mô tả ngày ngày mà Báo giá sẽ được xác thực và chuyển thành đơn mua"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__name
@@ -1771,7 +1771,7 @@ msgstr "Ngày đặt hàng"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_order
 msgid "Order Deadline"
-msgstr "Hạn chót đặt mua"
+msgstr "Ngày đặt hàng"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__order_line
